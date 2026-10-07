@@ -10,7 +10,10 @@ web-build/
 expo-env.d.ts
 
 # Native
+<<<<<<< HEAD
 .kotlin/
+=======
+>>>>>>> 6523d415427cc8259ccc14d27c7cd727ccc872d6
 *.orig.*
 *.jks
 *.p8
@@ -31,12 +34,18 @@ yarn-error.*
 *.pem
 
 # local env files
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 6523d415427cc8259ccc14d27c7cd727ccc872d6
 .env*.local
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 
 # generated native folders
 /ios
 /android
+=======
+>>>>>>> 6523d415427cc8259ccc14d27c7cd727ccc872d6

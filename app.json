@@ -1,16 +1,33 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "rn_stack_navigation",
     "slug": "rn_stack_navigation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+=======
+    "name": "rn_ts",
+    "slug": "rn_ts",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+>>>>>>> 6523d415427cc8259ccc14d27c7cd727ccc872d6
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
@@ -20,6 +37,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+=======
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.natalyababenko.rn_ts"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+>>>>>>> 6523d415427cc8259ccc14d27c7cd727ccc872d6
     },
     "plugins": [
       "expo-sqlite"
